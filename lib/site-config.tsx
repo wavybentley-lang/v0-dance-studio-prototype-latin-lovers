@@ -97,21 +97,21 @@ export const courseCategories: CourseCategory[] = [
         title: "Postura",
         age: "Tutti i livelli",
         description: "Tecnica, postura e disciplina per costruire basi solide nella danza classica.",
-        image: "/today/today/pexels-vlada-karpovich-4534637.jpg",
+        image: "/latinlovers/pexels-166597582-12327994.jpg",
         Icon: Zap,
       },
       {
         title: "Tecnica di Base",
         age: "Tutti i livelli",
         description: "Movimento, ritmo ed espressivita per interpretare coreografie moderne con energia.",
-        image: "/today/today/pexels-cottonbro-10640605.jpg",
+        image: "/latinlovers/pexels-pixabay-270789.jpg",
         Icon: Flame,
       },
       {
         title: "Regole del Tango",
         age: "Tutti i livelli",
         description: "Allenamento controllato per postura, tonificazione, stabilita e consapevolezza corporea.",
-        image: "/today/today/pexels-zandatsu-13517051.jpg",
+        image: "/latinlovers/pexels-stella-giordano-56317708-28434182.jpg",
         Icon: Wind,
       },
     ],
@@ -173,88 +173,95 @@ export const allGalleryPhotos = [
 
 export const salaArmoniaSchedule: ScheduleDay[] = [
   {
-    day: "LUNEDÌ",
+    day: "LUNED\u00cc",
     classes: [
-      { time: "10:00-11:00", name: "Tango Argentino Principianti" },
-      { time: "11:00-12:00", name: "Tango Argentino Intermedio" },
-      { time: "14:00-15:00", name: "Tango Argentino Avanzato" },
-      { time: "17:00-18:00", name: "Tecnica Femminile" },
-      { time: "19:00-20:00", name: "Tecnica Maschile" },
-      { time: "20:30-21:30", name: "Musicalità e Interpretazione" },
-      { time: "21:30-22:30", name: "Tecnica di Coppia" },
-      { time: "22:30-23:30", name: "Pratica Guidata" },
+      { time: "10:00-11:00", name: "Salsa Cubana" },
+      { time: "11:00-12:00", name: "Bachata" },
+      { time: "14:00-15:00", name: "Kizomba" },
+      { time: "17:00-18:00", name: "Caraibico Base" },
+      { time: "19:00-20:00", name: "Caraibico Intermedio" },
+      { time: "20:30-21:30", name: "Caraibico Avanzato" },
+      { time: "21:30-22:30", name: "Corso Coppia" },
+      { time: "22:30-23:30", name: "Corso Donna" },
     ],
   },
   {
-    day: "MARTEDÌ",
+    day: "MARTED\u00cc",
     classes: [
-      { time: "12:00-13:00", name: "Tango Argentino Principianti" },
-      { time: "14:00-15:00", name: "Tecnica Maschile" },
-      { time: "17:00-18:00", name: "Tango Argentino Avanzato" },
-      { time: "18:00-19:00", name: "Tecnica di Coppia" },
-      { time: "19:30-20:30", name: "Pratica Guidata" },
-      { time: "20:30-21:30", name: "Tango Argentino Intermedio" },
-      { time: "21:30-22:30", name: "Tecnica Femminile" },
-      { time: "22:30-23:30", name: "Musicalità e Interpretazione" },
+      { time: "12:00-13:00", name: "Corso Uomo" },
+      { time: "14:00-15:00", name: "Lezione Privata" },
+      { time: "17:00-18:00", name: "Salsa Cubana" },
+      { time: "18:00-19:00", name: "Bachata" },
+      { time: "19:30-20:30", name: "Kizomba" },
+      { time: "20:30-21:30", name: "Caraibico Base" },
+      { time: "21:30-22:30", name: "Caraibico Intermedio" },
+      { time: "22:30-23:30", name: "Caraibico Avanzato" },
     ],
   },
   {
-    day: "MERCOLEDÌ",
+    day: "MERCOLED\u00cc",
     classes: [
-      { time: "11:30-12:30", name: "Tango Argentino Avanzato" },
-      { time: "14:00-15:00", name: "Tango Argentino Intermedio" },
-      { time: "16:00-17:00", name: "Tecnica Femminile" },
-      { time: "18:00-19:00", name: "Tecnica di Coppia" },
-      { time: "19:00-20:00", name: "Tango Argentino Principianti" },
-      { time: "20:30-21:30", name: "Pratica Guidata" },
-      { time: "21:30-22:30", name: "Musicalità e Interpretazione" },
+      { time: "11:30-12:30", name: "Corso Coppia" },
+      { time: "14:00-15:00", name: "Corso Donna" },
+      { time: "16:00-17:00", name: "Corso Uomo" },
+      { time: "18:00-19:00", name: "Lezione Privata" },
+      { time: "19:00-20:00", name: "Salsa Cubana" },
+      { time: "20:30-21:30", name: "Bachata" },
+      { time: "21:30-22:30", name: "Kizomba" },
     ],
   },
   {
-    day: "GIOVEDÌ",
+    day: "GIOVED\u00cc",
     classes: [
-      { time: "10:00-11:00", name: "Tango Argentino Principianti" },
-      { time: "11:00-12:00", name: "Tango Argentino Intermedio" },
-      { time: "14:00-15:00", name: "Tecnica Maschile" },
-      { time: "17:00-18:00", name: "Tango Argentino Avanzato" },
-      { time: "18:30-19:30", name: "Tecnica di Coppia" },
-      { time: "19:30-20:30", name: "Tecnica Femminile" },
-      { time: "20:30-21:30", name: "Pratica Guidata" },
-      { time: "21:30-22:30", name: "Pratica Guidata" },
-      { time: "22:30-23:30", name: "Musicalità e Interpretazione" },
+      { time: "10:00-11:00", name: "Caraibico Base" },
+      { time: "11:00-12:00", name: "Caraibico Intermedio" },
+      { time: "14:00-15:00", name: "Caraibico Avanzato" },
+      { time: "17:00-18:00", name: "Corso Coppia" },
+      { time: "18:30-19:30", name: "Corso Donna" },
+      { time: "19:30-20:30", name: "Corso Uomo" },
+      { time: "20:30-21:30", name: "Lezione Privata" },
+      { time: "21:30-22:30", name: "Salsa Cubana" },
+      { time: "22:30-23:30", name: "Bachata" },
     ],
   },
   {
-    day: "VENERDÌ",
+    day: "VENERD\u00cc",
     classes: [
-      { time: "14:00-15:00", name: "Tecnica Maschile" },
-      { time: "18:00-19:00", name: "Tango Argentino Principianti" },
-      { time: "19:00-20:00", name: "Tango Argentino Avanzato" },
-      { time: "20:00-21:00", name: "Tango Argentino Intermedio" },
-      { time: "21:00-22:00", name: "Tecnica Femminile" },
-      { time: "22:00-23:00", name: "Musicalità e Interpretazione" },
+      { time: "14:00-15:00", name: "Kizomba" },
+      { time: "18:00-19:00", name: "Caraibico Base" },
+      { time: "19:00-20:00", name: "Caraibico Intermedio" },
+      { time: "20:00-21:00", name: "Caraibico Avanzato" },
+      { time: "21:00-22:00", name: "Corso Coppia" },
+      { time: "22:00-23:00", name: "Corso Donna" },
     ],
   },
   {
     day: "SABATO",
     classes: [
-      { time: "11:00-12:00", name: "Tango Argentino Principianti" },
-      { time: "15:30-16:30", name: "Tecnica di Coppia" },
-      { time: "17:00-18:00", name: "Pratica Guidata" },
+      { time: "11:00-12:00", name: "Corso Uomo" },
+      { time: "15:30-16:30", name: "Lezione Privata" },
+      { time: "17:00-18:00", name: "Salsa Cubana" },
     ],
   },
   {
     day: "DOMENICA",
-    classes: [{ time: "10:00-12:30", name: "Musicalità e Interpretazione" }],
+    classes: [{ time: "10:00-12:30", name: "Bachata" }],
   },
 ]
 
 export const salaRitmoSchedule = salaArmoniaSchedule
 
 export const scheduleBookingServices = [
-  "Lezioni individuali di danza",
-  "Preparazione esami e concorsi",
-  "Percorsi di perfezionamento",
+  "Salsa Cubana",
+  "Bachata",
+  "Kizomba",
+  "Caraibico Base",
+  "Caraibico Intermedio",
+  "Caraibico Avanzato",
+  "Corso Coppia",
+  "Corso Donna",
+  "Corso Uomo",
+  "Lezione Privata",
 ]
 
 export const scheduleContactInfo = {
@@ -263,16 +270,13 @@ export const scheduleContactInfo = {
 }
 
 export const pricingCards = [
-  { Icon: Ticket, title: "Lezione Singola", description: "Ideale per provare un corso prima di iscriverti. Nessun impegno, massima flessibilità." },
-  { Icon: Calendar, title: "Abbonamento Mensile", description: "La soluzione più flessibile per chi vuole ballare con regolarità ogni mese." },
+  { Icon: Ticket, title: "Lezione Singola", description: "Ideale per provare un corso prima di iscriverti. Nessun impegno, massima flessibilitÃ ." },
+  { Icon: Calendar, title: "Abbonamento Mensile", description: "La soluzione piÃ¹ flessibile per chi vuole ballare con regolaritÃ  ogni mese." },
   { Icon: CalendarRange, title: "Abbonamento Semestrale", description: "Sei mesi di lezioni con un risparmio rispetto all'abbonamento mensile." },
-  { Icon: Crown, title: "Abbonamento Annuale", description: "La scelta di chi vuole dare continuità al proprio percorso artistico. Massimo risparmio." },
+  { Icon: Crown, title: "Abbonamento Annuale", description: "La scelta di chi vuole dare continuitÃ  al proprio percorso artistico. Massimo risparmio." },
 ]
 
 export const pricingHighlights = [
-  { Icon: Tag, title: "Tariffe Differenziate", description: "I costi variano in base al corso scelto e all'età dell'allievo. Contattaci per ricevere il preventivo personalizzato." },
+  { Icon: Tag, title: "Tariffe Differenziate", description: "I costi variano in base al corso scelto e all'etÃ  dell'allievo. Contattaci per ricevere il preventivo personalizzato." },
   { Icon: Users, title: "Sconti Famiglia", description: "Sono previste riduzioni speciali per fratelli e/o sorelle e per mamme e figlie che si iscrivono insieme." },
 ]
-
-
-

@@ -63,7 +63,7 @@ export function ScheduleSection({ isVisible, setSectionRef }: AnimatedSectionPro
           <h2 className="mb-4 text-left font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-center">Orari dei Corsi</h2>
           <p className="max-w-none text-lg text-pretty text-muted-foreground lg:mx-auto lg:max-w-2xl">Organizziamo i nostri corsi per adattarsi ai tuoi impegni</p>
         </div>
-        <div className="grid gap-6"><ScheduleCard title="Orario Settimanale" subtitle="Il Sogno di Rita Castanò" schedule={salaArmoniaSchedule} /></div>
+        <div className="grid gap-6"><ScheduleCard title="Orario Settimanale" subtitle="" schedule={salaArmoniaSchedule} /></div>
         <div className="mt-6 rounded-sm border border-border/80 bg-card p-5 text-center sm:p-6">
           <h3 className="font-serif text-xl font-bold text-primary">Servizi su prenotazione</h3>
           <div className="mt-4 grid gap-3 text-sm font-medium text-foreground md:grid-cols-3">
@@ -83,7 +83,7 @@ export function PricingSection({ isVisible, setSectionRef }: AnimatedSectionProp
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 px-4 text-left lg:px-0 lg:text-center">
           <h2 className="mb-4 text-left font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-center">Iscrizioni & Prezzi</h2>
-          <p className="max-w-none text-lg text-pretty text-foreground lg:mx-auto lg:max-w-2xl">Scegli la formula più adatta a te. Per informazioni sui costi contattaci direttamente.</p>
+          <p className="max-w-none text-lg text-pretty text-foreground lg:mx-auto lg:max-w-2xl">Scegli la formula piÃ¹ adatta a te. Per informazioni sui costi contattaci direttamente.</p>
         </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
           {pricingCards.map((card, index) => {
@@ -101,7 +101,7 @@ export function PricingSection({ isVisible, setSectionRef }: AnimatedSectionProp
           {pricingHighlights.map((item) => { const Icon = item.Icon; return (<div key={item.title} className="flex gap-4"><Icon size={28} className="mt-1 shrink-0 text-primary" /><div><h4 className="mb-2 font-serif font-bold text-foreground">{item.title}</h4><p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p></div></div>) })}
         </div>
         <div className="mt-8 text-center">
-          <p className="mb-4 text-sm text-muted-foreground italic">Vuoi sapere di più? Contattaci per un preventivo personalizzato - la prima lezione è gratuita.</p>
+          <p className="mb-4 text-sm text-muted-foreground italic">Vuoi sapere di piÃ¹? Contattaci per un preventivo personalizzato - la prima lezione Ã¨ gratuita.</p>
           <a href="#contatti" className="inline-block rounded-sm bg-primary px-8 py-3 font-bold text-primary-foreground">Richiedi Informazioni</a>
         </div>
       </div>

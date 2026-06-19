@@ -25,12 +25,12 @@ const dancingScript = Dancing_Script({
   display: 'swap',
 })
 
-const siteUrl = 'https://v0-mergheri-tango-prototype.vercel.app'
+const siteUrl = 'https://v0-dance-studio-prototype-latin-lov.vercel.app'
 const siteName = brand.name
-const siteTitle = 'Salone Margherita | Tango Club a Napoli'
+const siteTitle = 'Latin Lovers Dance | Scuola di Ballo Latino'
 const siteDescription =
-  'Salone Margherita e un tango club a Napoli per lezioni, serate ed eventi dedicati al tango.'
-const ogImage = `${siteUrl}/today/today/og.jpg`
+  'Latin Lovers Dance e una scuola di ballo latino con corsi di Salsa Cubana, Bachata e Kizomba in un ambiente coinvolgente e dinamico.'
+const ogImage = `${siteUrl}/latinlovers/og.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   keywords: [
-    'Salone Margherita',
-    'tango Napoli',
-    'tango club Napoli',
-    'serate tango Napoli',
-    'lezioni tango Napoli',
-    'Via Santa Brigida Napoli',
-    'Napoli tango',
+    'Latin Lovers Dance',
+    'ballo latino',
+    'Salsa Cubana',
+    'Bachata',
+    'Kizomba',
+    'scuola di danza latina',
+    'Montoro',
   ],
   authors: [{ name: siteName }],
   creator: siteName,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
         secureUrl: ogImage,
         width: 1200,
         height: 630,
-        alt: 'Salone Margherita - Tango Club a Napoli',
+        alt: 'Latin Lovers Dance - Scuola di Ballo Latino',
         type: 'image/jpeg',
       },
     ],
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: ogImage,
-        alt: 'Salone Margherita - Tango Club a Napoli',
+        alt: 'Latin Lovers Dance - Scuola di Ballo Latino',
       },
     ],
   },
