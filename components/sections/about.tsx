@@ -44,12 +44,16 @@ export function AboutSection({ isVisible, setSectionRef }: AboutSectionProps) {
           </div>
           <div className="mx-auto flex max-w-xl flex-col justify-center self-center lg:mx-0 lg:py-6">
             <p className="mb-3 text-xs font-semibold tracking-[0.28em] text-primary uppercase">CHI SIAMO</p>
-            <h2 className="mb-5 font-serif text-4xl font-bold text-foreground sm:text-5xl">Il punto di riferimento per il Tango Argentino a Napoli</h2>
+            <h2 className="mb-5 font-serif text-4xl font-bold text-foreground sm:text-5xl">Latin Lovers Dance nasce dalla passione per il ballo latino</h2>
             <div className="space-y-4 text-lg leading-relaxed text-pretty text-foreground">
-              <p>Dal 2007 il Salone Margherita accompagna allievi e appassionati alla scoperta del Tango Argentino, diventando una realt&agrave; riconosciuta a Napoli e in Campania.</p>
-              <p>Con insegnanti qualificati, un metodo didattico efficace e un ambiente accogliente, la scuola offre percorsi adatti a chi inizia da zero e a chi desidera perfezionare tecnica, musicalit&agrave; e interpretazione.</p>
-              <p>Il tango &egrave; per tutti: non &egrave; necessario iscriversi in coppia e, fin dai primi mesi, gli allievi vengono accompagnati verso la pista con sicurezza e naturalezza.</p>
-              <p>Tra lezioni, pratiche, serate ed eventi, il Salone Margherita &egrave; una vera comunit&agrave; dove vivere il Tango Argentino, condividere una passione e sentirsi parte di un luogo speciale nel cuore di Napoli.</p>
+              <p>Latin Lovers Dance nasce dalla passione per il ballo latino e dal desiderio di creare un luogo dove ogni persona possa sentirsi a proprio agio, divertirsi e crescere attraverso la danza.</p>
+              <p>La nostra scuola accoglie principianti, appassionati e ballerini pi&ugrave; esperti che vogliono imparare Salsa Cubana, Bachata e Kizomba in un ambiente dinamico, coinvolgente e ricco di energia positiva. Crediamo che il ballo sia molto pi&ugrave; di una semplice attivit&agrave;: &egrave; un modo per esprimersi, fare nuove amicizie, migliorare la propria sicurezza e condividere emozioni autentiche.</p>
+              <p>Attraverso corsi di gruppo, lezioni individuali e percorsi dedicati alle coppie, accompagniamo ogni allievo passo dopo passo, rispettando il suo livello e i suoi obiettivi. Le nostre lezioni combinano tecnica, musicalit&agrave; e divertimento, permettendo a tutti di imparare in modo naturale e coinvolgente.</p>
+              <p>Che tu voglia muovere i primi passi o perfezionare il tuo stile, da Latin Lovers Dance troverai una comunit&agrave; pronta ad accoglierti e a farti vivere tutta la magia del mondo latino.</p>
+              <div className="pt-4">
+                <h3 className="mb-3 font-serif text-2xl font-bold text-foreground">La Nostra Missione</h3>
+                <p>Trasmettere la passione per il ballo latino creando un ambiente accogliente, inclusivo e stimolante, dove ogni persona possa imparare, divertirsi e sentirsi parte di una grande famiglia.</p>
+              </div>
             </div>
           </div>
         </div>

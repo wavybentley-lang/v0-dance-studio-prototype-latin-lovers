@@ -3,7 +3,7 @@
 import { ChevronRight, MessageCircle } from "lucide-react"
 import { useEffect, useRef } from "react"
 
-import { stats } from "@/lib/site-config"
+import { brand, stats } from "@/lib/site-config"
 import { useCounter } from "@/hooks/use-counter"
 
 function StatCounter({ stat }: { stat: typeof stats[number] }) {
@@ -100,24 +100,27 @@ export function HeroSection({ mouseX = 0.5, mouseY = 0.5 }: { mouseX?: number; m
       </div>
       <div className="relative z-10 ml-0 max-w-7xl px-4 pt-32 pb-24 text-left sm:px-6 sm:pt-36 sm:pb-28 lg:mx-auto lg:w-1/2 lg:px-8 lg:py-0">
         <div className="animate-clip-reveal mb-6 inline-flex items-center rounded-full border border-[#F5F5F5]/20 bg-white/5 px-4 py-2 text-xs font-semibold tracking-[0.24em] text-[#F5F5F5]/85 uppercase backdrop-blur-sm" style={{ animationDelay: "0.05s" }}>
-          Dal 1996 Tango Argentino Napoli
+          LATIN LOVERS DANCE
         </div>
         <h1 className="mb-6 text-left font-serif text-5xl leading-[0.96] font-bold text-balance text-[#F5F5F5] italic sm:text-6xl md:text-7xl lg:text-8xl">
-          <span className="animate-clip-reveal inline-block">Vuoi Imparare il</span>{" "}
-          <span className="animate-clip-reveal inline-block" style={{ animationDelay: "0.15s" }}>Tango</span>{" "}
-          <span className="animate-clip-reveal inline-block" style={{ animationDelay: "0.35s" }}>Argentino?</span>
+          <span className="animate-clip-reveal inline-block">Vivi il Ritmo.</span>{" "}
+          <span className="animate-clip-reveal inline-block" style={{ animationDelay: "0.15s" }}>Balla con</span>{" "}
+          <span className="animate-clip-reveal inline-block" style={{ animationDelay: "0.35s" }}>Passione.</span>
         </h1>
         <p className="animate-clip-reveal mb-10 max-w-none text-lg leading-relaxed font-light text-pretty text-[#B8B8B8] sm:text-xl lg:max-w-xl lg:text-2xl" style={{ animationDelay: "0.55s" }}>
-          Unisciti al Salone Margherita e scopri corsi, lezioni ed eventi dedicati a principianti ed esperti in un ambiente autentico e coinvolgente.
+          Impara Salsa Cubana, Bachata e Kizomba in un ambiente coinvolgente dove il ballo diventa emozione, amicizia e divertimento. Corsi per tutti i livelli, dalle prime lezioni ai ballerini più esperti.
         </p>
         <div className="animate-clip-reveal flex flex-col justify-start gap-4 sm:flex-row" style={{ animationDelay: "0.7s" }}>
           <a href="#corsi" className="animate-pulse-glow inline-flex items-center justify-center gap-2 rounded-full border border-[#F5F5F5]/60 bg-transparent px-8 py-4 text-lg font-semibold text-[#F5F5F5] shadow-sm transition-all hover:bg-[#FFFFFF]/10">
-            Prenota una Lezione di Prova <ChevronRight size={20} />
+            Inizia Oggi <ChevronRight size={20} />
           </a>
-          <a href="#contatti" className="animate-pulse-glow rounded-full border border-[#F5F5F5]/60 bg-card/70 px-8 py-4 text-lg font-semibold text-[#F5F5F5] shadow-sm transition-all hover:bg-[#FFFFFF]/10">
-            <span className="inline-flex items-center justify-center gap-2"><MessageCircle size={20} /> Scrivici su WhatsApp</span>
+          <a href={brand.whatsappHref} target="_blank" rel="noopener noreferrer" className="animate-pulse-glow rounded-full border border-[#F5F5F5]/60 bg-card/70 px-8 py-4 text-lg font-semibold text-[#F5F5F5] shadow-sm transition-all hover:bg-[#FFFFFF]/10">
+            <span className="inline-flex items-center justify-center gap-2"><MessageCircle size={20} /> Contattaci su WhatsApp</span>
           </a>
         </div>
+        <p className="animate-clip-reveal mt-6 max-w-none text-base leading-relaxed font-light text-pretty text-[#D7D7D7] sm:text-lg lg:max-w-xl" style={{ animationDelay: "0.85s" }}>
+          Non serve esperienza, serve solo la voglia di mettersi in gioco. Ti accompagneremo passo dopo passo nel meraviglioso mondo del ballo latino.
+        </p>
       </div>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
         <div className="flex h-10 w-6 justify-center rounded-full border-2 border-foreground/50 pt-2">
